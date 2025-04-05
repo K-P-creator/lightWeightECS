@@ -1,4 +1,4 @@
-#lightWeightECS
+# lightWeightECS
 
 A lightweight, ECS-style game engine built for fun experiments and solid performance.
 
