@@ -71,7 +71,7 @@ int main()
     cm.addComponent<hitboxComponent>(rightWall, hitboxComponent(10, HEIGHT,1));
 
     // --- Create rectangles
-    for (int i = 0; i < 200; ++i) {
+    for (int i = 0; i < RECTANGLE_COUNT; ++i) {
         entity e{entityId++};
 
         int width  = randInRange(5, 20);
@@ -129,7 +129,7 @@ int main()
     }
 
     // --- Create circles
-    for (int i = 0; i < 200; ++i) {
+    for (int i = 0; i < CIRCLE_COUNT; ++i) {
         entity e{entityId++};
 
         int radius = randInRange(5, 20);
