@@ -24,7 +24,7 @@ Make sure SFML is installed before compiling.
 To compile Pong:
 `g++ -o pong pongMain.cpp -lsfml-graphics -lsfml-window -lsfml-system`
 
-To compile the Collision Test:
+To compile the Collision Tests:
 `g++ -o test testMain.cpp -lsfml-graphics -lsfml-window -lsfml-system`
 
 ## Why ECS for Pong?
