@@ -13,6 +13,10 @@ Simulates tons of randomly moving objects with hitboxes and bouncing behavior fo
 ### Two-Player Pong Game
 Found in the "pong" folder, using the same ECS backend.
 
+### MultiThreaded Test Demo
+I have added threading to the physics. It seems to allow me to render ~2x as many objects while
+maintatining a steady 120fps. On my machine I can render ~800 objects with velocities and hitboxes
+
 ## Build Instructions (Linux):
 
 Make sure SFML is installed before compiling.
@@ -34,9 +38,6 @@ For smoother physics with different framerates
 
 ### Smarter collision handling
 Localize collision detection
-
-### Multithreading
-To partition physics workload more efficiently
 
 ### Networking
 So you can play online against all 0 users
