@@ -42,8 +42,5 @@ The ECS may be total overkill for my pong demo, but I may build other 2D collisi
 ### Timestep support
 For smoother physics with different framerates
 
-### Smarter collision handling
-Localize collision detection
-
 ### Networking
 So you can play online against all 0 users
