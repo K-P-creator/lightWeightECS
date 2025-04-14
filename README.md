@@ -17,6 +17,12 @@ Found in the "pong" folder, using the same ECS backend.
 I have added threading to the physics. It seems to allow me to render ~2x as many objects while
 maintatining a steady 120fps. On my machine I can render ~800 objects with velocities and hitboxes
 
+### QuadTree Test Demo
+I have implemented a quadTree for localizing collision calculations. This allows for higher framerates when
+rendering large amounts of moving and bouncing entities. Try setting the counts to high numbers in the 
+globals.h file and observe the frame rate savings! It's not as dramatic a difference as the multi vs single
+threads, but it is definately an improvement.
+
 ## Build Instructions (Linux):
 
 Make sure SFML is installed before compiling.
@@ -24,7 +30,7 @@ Make sure SFML is installed before compiling.
 To compile Pong:
 `g++ -o pong pongMain.cpp -lsfml-graphics -lsfml-window -lsfml-system`
 
-To compile the Collision Tests:
+To compile the Collision Tests (test, multi-threaded and quadTree):
 `g++ -o test testMain.cpp -lsfml-graphics -lsfml-window -lsfml-system`
 
 ## Why ECS for Pong?
