@@ -2,6 +2,10 @@
 
 A lightweight, ECS-style game engine built for fun experiments and solid performance.
 
+## Check out Extreme pong
+Its pong but with textures. Demos the ECS and collision/bounce. 
+This is the only module thats made to compile on windows. It's made with SFML 3.0.1 (newest as of 4/26/25)
+
 ## Features:
 
 ### Entity-Component-System Architecture
