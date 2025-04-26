@@ -7,8 +7,9 @@ I also implemented timestep for smoother physics at different framerates. The ga
 and the physics will stay consistent. It is capped at 120 though by default. 
 
 ## Compilation
-Compiled with cmake
+Compiler: GCC (MinGW on Windows)
 
+Use: 
 ``` ps
 mkdir build
 cd build
