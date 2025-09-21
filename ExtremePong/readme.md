@@ -19,6 +19,14 @@ Compiler: GCC (MinGW on Windows)
 
 ### Instructions
 
+Set your compiler to GCC
+
+```ps
+cmake .. -G "MinGW Makefiles" -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++
+```
+
+Then build
+
 ``` ps
 mkdir build
 cd build
