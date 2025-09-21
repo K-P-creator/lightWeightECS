@@ -299,7 +299,6 @@ class systemManager
             }
 
 
-
             //delete any ents logged for deletion
             for (const auto & del : delList){
                 cm.clearEntityComponents(del);
@@ -310,11 +309,7 @@ class systemManager
                     ent.erase(it);
                 }
             }
-
-            //delete anything logged for deletion
-            //for (auto i : toRemove){
-            //    ent.erase(ent.begin() + i);
-            //}
+			
 
             //draw all the dynamic objects
             for (auto it = ent.begin(); it != ent.end();){
@@ -331,8 +326,8 @@ class systemManager
                 }
                 it++;
             }
-            
 
             return;
         }
 };
+
